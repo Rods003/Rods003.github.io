@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Cuprum:wght@400;700&display=swap");
+
+body {
+  background: radial-gradient(
+    circle,
+    rgba(245, 245, 247, 1) 23%,
+    rgba(4, 157, 205, 1) 67%,
+    rgba(5, 168, 10, 1) 93%
+  );
+  font-family: "Cuprum", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 500px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-left: 25px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 24px;
+  margin-left: 25px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+  border: none;
+}
+
+.tema button img {
+  max-height: 40px;
+  max-width: 40px;
+}
+
+.social img {
+  max-height: 42px;
+  max-width: 42px;
+  height: auto;
+  width: auto;
+  display: flex;
+}
+
+#linkedin {
+  position: absolute;
+  top: 25px;
+  right: 75px;
+}
+
+#github {
+  position: absolute;
+  top: 25px;
+  right: 50px;
+}
+
+#codepen {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.Projetos {
+  display: flex;
+  flex-direction: column;
+  background: #a8acad;
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 13, 1) 23%,
+    rgba(244, 109, 6, 1) 67%,
+    rgba(187, 9, 31, 1) 93%
+  );
+}
+.dark .container {
+  background: #48484a;
+  color: #ffffff;
+}
+
+.dark .Projetos {
+  color: #f6f6f6;
+  background: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #48484a;
+  /*   color: #1c1c1c; */
+  /*   border: 2px solid #f7f7f7; */
+  border: none;
+}
+
+.codepen {
+  right: 50px;
+}
